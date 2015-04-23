@@ -1,0 +1,97 @@
+00:00:00.000000 IP m-prd-req-adcom-mtc-c.evip.aol.com.http > challenger.37499: Flags [.], ack 26790749, win 1023, length 0
+00:00:00.051879 IP challenger.53758 > server-54-230-38-36.jfk1.r.cloudfront.net.http: Flags [.], ack 1414694735, win 2134, options [nop,nop,TS val 283051096 ecr 2507119338], length 0
+00:00:00.000014 IP challenger.47723 > server-54-230-38-159.jfk1.r.cloudfront.net.http: Flags [.], ack 479711880, win 1452, options [nop,nop,TS val 283051096 ecr 2543284936], length 0
+00:00:00.000007 IP challenger.53759 > server-54-230-38-36.jfk1.r.cloudfront.net.http: Flags [.], ack 3485940319, win 1901, options [nop,nop,TS val 283051096 ecr 2550879244], length 0
+00:00:00.000006 IP challenger.53760 > server-54-230-38-36.jfk1.r.cloudfront.net.http: Flags [.], ack 1831152368, win 24571, options [nop,nop,TS val 283051096 ecr 2422184639], length 0
+00:00:00.007653 IP server-54-230-38-36.jfk1.r.cloudfront.net.http > challenger.53759: Flags [.], ack 1, win 222, options [nop,nop,TS val 2550880245 ecr 283038585], length 0
+00:00:00.000036 IP server-54-230-38-159.jfk1.r.cloudfront.net.http > challenger.47723: Flags [.], ack 1, win 130, options [nop,nop,TS val 2543285937 ecr 283038580], length 0
+00:00:00.000008 IP server-54-230-38-36.jfk1.r.cloudfront.net.http > challenger.53758: Flags [.], ack 1, win 197, options [nop,nop,TS val 2507120339 ecr 283038575], length 0
+00:00:00.000014 IP server-54-230-38-36.jfk1.r.cloudfront.net.http > challenger.53760: Flags [.], ack 1, win 197, options [nop,nop,TS val 2422185641 ecr 283038583], length 0
+00:00:00.024263 IP challenger.54739 > 192.189.138.182.http: Flags [.], ack 2921194565, win 288, options [nop,nop,TS val 283051104 ecr 2392062302], length 0
+00:00:00.000328 IP 192.189.138.182.http > challenger.54739: Flags [.], ack 1, win 569, options [nop,nop,TS val 2392072318 ecr 283023560], length 0
+00:00:00.056311 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [P.], seq 63450968:63451065, ack 1188227434, win 1994, options [nop,nop,TS val 283051118 ecr 70521204], length 97
+00:00:00.000138 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [P.], seq 97:143, ack 1, win 1994, options [nop,nop,TS val 283051118 ecr 70521204], length 46
+00:00:00.007212 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [.], ack 97, win 920, options [nop,nop,TS val 70536098 ecr 283051118], length 0
+00:00:00.000007 IP challenger.48570 > 192.189.138.183.http: Flags [.], ack 1461295411, win 1205, options [nop,nop,TS val 283051120 ecr 2377535193], length 0
+00:00:00.000041 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [.], ack 143, win 920, options [nop,nop,TS val 70536098 ecr 283051118], length 0
+00:00:00.000566 IP 192.189.138.183.http > challenger.48570: Flags [.], ack 1, win 520, options [nop,nop,TS val 2377545209 ecr 283026082], length 0
+00:00:00.000198 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [P.], seq 1:47, ack 143, win 920, options [nop,nop,TS val 70536099 ecr 283051118], length 46
+00:00:00.031169 IP challenger.47719 > server-54-230-38-159.jfk1.r.cloudfront.net.http: Flags [.], ack 1625785656, win 1416, options [nop,nop,TS val 283051128 ecr 2551227354], length 0
+00:00:00.007627 IP server-54-230-38-159.jfk1.r.cloudfront.net.http > challenger.47719: Flags [.], ack 1, win 155, options [nop,nop,TS val 2551228355 ecr 283038610], length 0
+00:00:00.000418 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [.], ack 47, win 1994, options [nop,nop,TS val 283051130 ecr 70536099], length 0
+00:00:00.013602 ARP, Request who-has 128.119.247.211 tell j-cs-gw-networks-247.cs.umass.edu, length 46
+00:00:00.003696 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [P.], seq 47:142, ack 143, win 920, options [nop,nop,TS val 70536155 ecr 283051130], length 95
+00:00:00.000018 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [.], ack 142, win 1994, options [nop,nop,TS val 283051134 ecr 70536155], length 0
+00:00:00.000007 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [P.], seq 142:195, ack 143, win 920, options [nop,nop,TS val 70536155 ecr 283051130], length 53
+00:00:00.000005 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [.], ack 195, win 1994, options [nop,nop,TS val 283051134 ecr 70536155], length 0
+00:00:00.001642 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [P.], seq 195:748, ack 143, win 920, options [nop,nop,TS val 70536157 ecr 283051130], length 553
+00:00:00.000016 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [.], ack 748, win 1994, options [nop,nop,TS val 283051134 ecr 70536157], length 0
+00:00:00.000007 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [P.], seq 748:794, ack 143, win 920, options [nop,nop,TS val 70536157 ecr 283051130], length 46
+00:00:00.000005 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [.], ack 794, win 1994, options [nop,nop,TS val 283051134 ecr 70536157], length 0
+00:00:00.001092 IP challenger.53943 > lga25s40-in-f5.1e100.net.https: Flags [P.], seq 143:189, ack 794, win 1994, options [nop,nop,TS val 283051135 ecr 70536157], length 46
+00:00:00.003906 IP challenger.33238 > lga25s40-in-f14.1e100.net.http: Flags [.], ack 772459547, win 254, options [nop,nop,TS val 283051136 ecr 70651003], length 0
+00:00:00.007225 IP lga25s40-in-f14.1e100.net.http > challenger.33238: Flags [.], ack 1, win 365, options [nop,nop,TS val 70661019 ecr 283038620], length 0
+00:00:00.024751 IP challenger.54605 > 192.189.138.182.http: Flags [.], ack 714511132, win 421, options [nop,nop,TS val 283051144 ecr 2392062462], length 0
+00:00:00.000025 IP challenger.55865 > 192.189.138.184.http: Flags [.], ack 4148880646, win 410, options [nop,nop,TS val 283051144 ecr 2663595022], length 0
+00:00:00.000357 IP 192.189.138.184.http > challenger.55865: Flags [.], ack 1, win 486, options [nop,nop,TS val 2663605038 ecr 283026101], length 0
+00:00:00.000031 IP 192.189.138.182.http > challenger.54605: Flags [.], ack 1, win 1320, options [nop,nop,TS val 2392072478 ecr 283038624], length 0
+00:00:00.010796 IP lga25s40-in-f5.1e100.net.https > challenger.53943: Flags [.], ack 189, win 920, options [nop,nop,TS val 70536205 ecr 283051135], length 0
+00:00:00.084819 IP challenger.55041 > server-54-230-39-203.jfk1.r.cloudfront.net.http: Flags [.], ack 2504434070, win 1156, options [nop,nop,TS val 283051168 ecr 2551207774], length 0
+00:00:00.004006 IP challenger.42909 > a23-52-155-27.deploy.static.akamaitechnologies.com.http: Flags [.], ack 1887683770, win 255, options [nop,nop,TS val 283051169 ecr 3676048794], length 0
+00:00:00.003720 IP server-54-230-39-203.jfk1.r.cloudfront.net.http > challenger.55041: Flags [.], ack 1, win 122, options [nop,nop,TS val 2551208776 ecr 283038647], length 0
+00:00:00.004904 IP a23-52-155-27.deploy.static.akamaitechnologies.com.http > challenger.42909: Flags [.], ack 1, win 486, options [nop,nop,TS val 3676058814 ecr 283028636], length 0
+00:00:00.275380 IP challenger.55160 > 192.189.138.182.http: Flags [.], ack 265856205, win 260, options [nop,nop,TS val 283051240 ecr 2392062846], length 0
+00:00:00.000376 IP 192.189.138.182.http > challenger.55160: Flags [.], ack 1, win 486, options [nop,nop,TS val 2392072862 ecr 283028704], length 0
+00:00:00.159612 IP challenger.54559 > 192.189.138.182.http: Flags [.], ack 2621105696, win 1066, options [nop,nop,TS val 283051280 ecr 2392063006], length 0
+00:00:00.000356 IP 192.189.138.182.http > challenger.54559: Flags [.], ack 1, win 553, options [nop,nop,TS val 2392073022 ecr 283033753], length 0
+00:00:00.031672 IP challenger.54790 > 192.189.138.182.http: Flags [.], ack 1421377723, win 2218, options [nop,nop,TS val 283051288 ecr 2392063038], length 0
+00:00:00.000350 IP 192.189.138.182.http > challenger.54790: Flags [.], ack 1, win 754, options [nop,nop,TS val 2392073054 ecr 283033759], length 0
+00:00:00.029960 IP challenger.52770 > lga25s40-in-f2.1e100.net.https: Flags [P.], seq 2223551788:2223551834, ack 3202847019, win 1469, options [nop,nop,TS val 283051295 ecr 70600805], length 46
+00:00:00.000107 IP challenger.49334 > da-in-f99.1e100.net.https: Flags [P.], seq 2657373746:2657373792, ack 836989334, win 1488, options [nop,nop,TS val 283051295 ecr 1678635760], length 46
+00:00:00.000068 IP challenger.46721 > lga25s40-in-f6.1e100.net.https: Flags [P.], seq 975709040:975709086, ack 1215298599, win 1444, options [nop,nop,TS val 283051295 ecr 70600145], length 46
+00:00:00.007201 IP lga25s40-in-f2.1e100.net.https > challenger.52770: Flags [.], ack 46, win 444, options [nop,nop,TS val 70659325 ecr 283051295], length 0
+00:00:00.000033 IP lga25s40-in-f2.1e100.net.https > challenger.52770: Flags [P.], seq 1:61, ack 46, win 444, options [nop,nop,TS val 70659325 ecr 283051295], length 60
+00:00:00.000014 IP lga25s40-in-f2.1e100.net.https > challenger.52770: Flags [F.], seq 61, ack 46, win 444, options [nop,nop,TS val 70659325 ecr 283051295], length 0
+00:00:00.000011 IP lga25s40-in-f6.1e100.net.https > challenger.46721: Flags [.], ack 46, win 385, options [nop,nop,TS val 70658230 ecr 283051295], length 0
+00:00:00.000022 IP lga25s40-in-f6.1e100.net.https > challenger.46721: Flags [P.], seq 1:61, ack 46, win 385, options [nop,nop,TS val 70658230 ecr 283051295], length 60
+00:00:00.000014 IP lga25s40-in-f6.1e100.net.https > challenger.46721: Flags [F.], seq 61, ack 46, win 385, options [nop,nop,TS val 70658230 ecr 283051295], length 0
+00:00:00.000170 IP challenger.46721 > lga25s40-in-f6.1e100.net.https: Flags [P.], seq 46:92, ack 62, win 1444, options [nop,nop,TS val 283051297 ecr 70658230], length 46
+00:00:00.000219 IP challenger.52770 > lga25s40-in-f2.1e100.net.https: Flags [P.], seq 46:92, ack 62, win 1469, options [nop,nop,TS val 283051297 ecr 70659325], length 46
+00:00:00.001034 IP challenger.52770 > lga25s40-in-f2.1e100.net.https: Flags [P.], seq 92:123, ack 62, win 1469, options [nop,nop,TS val 283051297 ecr 70659325], length 31
+00:00:00.000021 IP challenger.52770 > lga25s40-in-f2.1e100.net.https: Flags [F.], seq 123, ack 62, win 1469, options [nop,nop,TS val 283051297 ecr 70659325], length 0
+00:00:00.000221 IP challenger.46721 > lga25s40-in-f6.1e100.net.https: Flags [P.], seq 92:123, ack 62, win 1444, options [nop,nop,TS val 283051297 ecr 70658230], length 31
+00:00:00.000018 IP challenger.46721 > lga25s40-in-f6.1e100.net.https: Flags [F.], seq 123, ack 62, win 1444, options [nop,nop,TS val 283051297 ecr 70658230], length 0
+00:00:00.005791 IP lga25s40-in-f6.1e100.net.https > challenger.46721: Flags [R], seq 1215298660, win 0, length 0
+00:00:00.000243 IP lga25s40-in-f2.1e100.net.https > challenger.52770: Flags [R], seq 3202847080, win 0, length 0
+00:00:00.000907 IP lga25s40-in-f2.1e100.net.https > challenger.52770: Flags [R], seq 3202847080, win 0, length 0
+00:00:00.000028 IP lga25s40-in-f2.1e100.net.https > challenger.52770: Flags [R], seq 3202847080, win 0, length 0
+00:00:00.000385 IP lga25s40-in-f6.1e100.net.https > challenger.46721: Flags [R], seq 1215298660, win 0, length 0
+00:00:00.000020 IP lga25s40-in-f6.1e100.net.https > challenger.46721: Flags [R], seq 1215298660, win 0, length 0
+00:00:00.007884 IP da-in-f99.1e100.net.https > challenger.49334: Flags [.], ack 46, win 491, options [nop,nop,TS val 1678694225 ecr 283051295], length 0
+00:00:00.000022 IP da-in-f99.1e100.net.https > challenger.49334: Flags [P.], seq 1:61, ack 46, win 491, options [nop,nop,TS val 1678694225 ecr 283051295], length 60
+00:00:00.000010 IP da-in-f99.1e100.net.https > challenger.49334: Flags [F.], seq 61, ack 46, win 491, options [nop,nop,TS val 1678694225 ecr 283051295], length 0
+00:00:00.000086 IP challenger.49334 > da-in-f99.1e100.net.https: Flags [P.], seq 46:92, ack 62, win 1488, options [nop,nop,TS val 283051301 ecr 1678694225], length 46
+00:00:00.000204 IP challenger.49334 > da-in-f99.1e100.net.https: Flags [P.], seq 92:123, ack 62, win 1488, options [nop,nop,TS val 283051301 ecr 1678694225], length 31
+00:00:00.000013 IP challenger.49334 > da-in-f99.1e100.net.https: Flags [F.], seq 123, ack 62, win 1488, options [nop,nop,TS val 283051301 ecr 1678694225], length 0
+00:00:00.008889 IP challenger.43723 > a23-203-49-129.deploy.static.akamaitechnologies.com.http: Flags [.], ack 4037971288, win 576, options [nop,nop,TS val 283051304 ecr 592528170], length 0
+00:00:00.005914 IP a23-203-49-129.deploy.static.akamaitechnologies.com.http > challenger.43723: Flags [.], ack 1, win 758, options [nop,nop,TS val 592538186 ecr 283038797], length 0
+00:00:00.001722 IP challenger.33398 > lga25s40-in-f2.1e100.net.http: Flags [F.], seq 2846800911, ack 1864241921, win 364, options [nop,nop,TS val 283051305 ecr 70891920], length 0
+00:00:00.001504 IP challenger.ssh > 103.41.124.190.38200: Flags [P.], seq 2561990248:2561990316, ack 4082393674, win 247, options [nop,nop,TS val 283051306 ecr 22964690], length 68
+00:00:00.005868 IP lga25s40-in-f2.1e100.net.http > challenger.33398: Flags [F.], seq 1, ack 1, win 350, options [nop,nop,TS val 70897751 ecr 283051305], length 0
+00:00:00.000038 IP challenger.33398 > lga25s40-in-f2.1e100.net.http: Flags [.], ack 2, win 364, options [nop,nop,TS val 283051307 ecr 70897751], length 0
+00:00:00.000074 IP da-in-f99.1e100.net.https > challenger.49334: Flags [R], seq 836989395, win 0, length 0
+00:00:00.000374 IP da-in-f99.1e100.net.https > challenger.49334: Flags [R], seq 836989395, win 0, length 0
+00:00:00.000021 IP da-in-f99.1e100.net.https > challenger.49334: Flags [R], seq 836989395, win 0, length 0
+00:00:00.048509 IP challenger.53559 > ec2-23-23-102-175.compute-1.amazonaws.com.http: Flags [.], ack 2400360684, win 337, options [nop,nop,TS val 283051320 ecr 821648582], length 0
+00:00:00.014258 IP ec2-23-23-102-175.compute-1.amazonaws.com.http > challenger.53559: Flags [.], ack 1, win 136, options [nop,nop,TS val 821651092 ecr 283048823], length 0
+00:00:00.006773 IP 103.41.124.190.38200 > challenger.ssh: Flags [P.], seq 1:85, ack 68, win 296, options [nop,nop,TS val 22965193 ecr 283051306], length 84
+00:00:00.000022 IP challenger.ssh > 103.41.124.190.38200: Flags [.], ack 85, win 247, options [nop,nop,TS val 283051325 ecr 22965193], length 0
+00:00:00.010905 IP challenger.43807 > a23-203-49-129.deploy.static.akamaitechnologies.com.http: Flags [.], ack 699591634, win 1134, options [nop,nop,TS val 283051328 ecr 3175034364], length 0
+00:00:00.000013 IP challenger.43809 > a23-203-49-129.deploy.static.akamaitechnologies.com.http: Flags [.], ack 693802872, win 1389, options [nop,nop,TS val 283051328 ecr 3175034364], length 0
+00:00:00.000006 IP challenger.43804 > a23-203-49-129.deploy.static.akamaitechnologies.com.http: Flags [.], ack 4043962266, win 1444, options [nop,nop,TS val 283051328 ecr 592528266], length 0
+00:00:00.000010 IP challenger.43806 > a23-203-49-129.deploy.static.akamaitechnologies.com.http: Flags [.], ack 4045902288, win 864, options [nop,nop,TS val 283051328 ecr 592528266], length 0
+00:00:00.005819 IP a23-203-49-129.deploy.static.akamaitechnologies.com.http > challenger.43807: Flags [.], ack 1, win 815, options [nop,nop,TS val 3175044380 ecr 283038805], length 0
+00:00:00.000012 IP a23-203-49-129.deploy.static.akamaitechnologies.com.http > challenger.43809: Flags [.], ack 1, win 996, options [nop,nop,TS val 3175044380 ecr 283038805], length 0
+00:00:00.000013 IP a23-203-49-129.deploy.static.akamaitechnologies.com.http > challenger.43804: Flags [.], ack 1, win 996, options [nop,nop,TS val 592538282 ecr 283038804], length 0
+00:00:00.000054 IP a23-203-49-129.deploy.static.akamaitechnologies.com.http > challenger.43806: Flags [.], ack 1, win 724, options [nop,nop,TS val 592538282 ecr 283038804], length 0
+

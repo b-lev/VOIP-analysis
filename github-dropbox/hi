@@ -1,0 +1,912 @@
+No.     Time        Source                Destination           Protocol Length Info 
+      1 0.000000    128.119.247.197       91.189.90.41          TCP      74     43322 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=176003179 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+      2 0.074508    91.189.90.41          128.119.247.197       TCP      74     http > 43322 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 SACK_PERM=1 TSval=1128740115 TSecr=176003179 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+      3 0.000037    128.119.247.197       91.189.90.41          TCP      66     43322 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176003198 TSecr=1128740115
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+      4 0.000102    128.119.247.197       91.189.90.41          HTTP     385    GET /14.04/Google/?sourceid=hp HTTP/1.1 
+
+Frame 4: 385 bytes on wire (3080 bits), 385 bytes captured (3080 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 1, Ack: 1, Len: 319
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+      5 0.074209    91.189.90.41          128.119.247.197       TCP      66     http > 43322 [ACK] Seq=1 Ack=320 Win=6912 Len=0 TSval=1128740123 TSecr=176003198
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 1, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+      6 0.005907    91.189.90.41          128.119.247.197       TCP      638    [TCP segment of a reassembled PDU]
+
+Frame 6: 638 bytes on wire (5104 bits), 638 bytes captured (5104 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 1, Ack: 320, Len: 572
+
+No.     Time        Source                Destination           Protocol Length Info 
+      7 0.000034    128.119.247.197       91.189.90.41          TCP      66     43322 > http [ACK] Seq=320 Ack=573 Win=30464 Len=0 TSval=176003218 TSecr=1128740123
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 320, Ack: 573, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+      8 0.000059    91.189.90.41          128.119.247.197       TCP      1514   [TCP segment of a reassembled PDU]
+
+Frame 8: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 573, Ack: 320, Len: 1448
+
+No.     Time        Source                Destination           Protocol Length Info 
+      9 0.000017    128.119.247.197       91.189.90.41          TCP      66     43322 > http [ACK] Seq=320 Ack=2021 Win=33280 Len=0 TSval=176003218 TSecr=1128740123
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 320, Ack: 2021, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     10 0.000048    91.189.90.41          128.119.247.197       HTTP     490    HTTP/1.0 200 OK  (text/html)
+
+Frame 10: 490 bytes on wire (3920 bits), 490 bytes captured (3920 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2021, Ack: 320, Len: 424
+[3 Reassembled TCP Segments (2444 bytes): #6(572), #8(1448), #10(424)]
+Hypertext Transfer Protocol
+Line-based text data: text/html
+
+No.     Time        Source                Destination           Protocol Length Info 
+     11 0.000013    128.119.247.197       91.189.90.41          TCP      66     43322 > http [ACK] Seq=320 Ack=2445 Win=36224 Len=0 TSval=176003218 TSecr=1128740123
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 320, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     12 3.943822    128.119.247.197       72.21.91.29           TCP      74     33076 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=176004204 TSecr=0 WS=128
+
+Frame 12: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     13 0.007717    72.21.91.29           128.119.247.197       TCP      74     http > 33076 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=2490009409 TSecr=176004204 WS=512
+
+Frame 13: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     14 0.000042    128.119.247.197       72.21.91.29           TCP      66     33076 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176004206 TSecr=2490009409
+
+Frame 14: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     15 0.000130    128.119.247.197       72.21.91.29           OCSP     505    Request
+
+Frame 15: 505 bytes on wire (4040 bits), 505 bytes captured (4040 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 1, Ack: 1, Len: 439
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     16 0.007640    72.21.91.29           128.119.247.197       TCP      66     http > 33076 [ACK] Seq=1 Ack=440 Win=15872 Len=0 TSval=2490009410 TSecr=176004206
+
+Frame 16: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 1, Ack: 440, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     17 0.000678    72.21.91.29           128.119.247.197       OCSP     854    Response
+
+Frame 17: 854 bytes on wire (6832 bits), 854 bytes captured (6832 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 1, Ack: 440, Len: 788
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     18 0.000031    128.119.247.197       72.21.91.29           TCP      66     33076 > http [ACK] Seq=440 Ack=789 Win=30848 Len=0 TSval=176004208 TSecr=2490009411
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 440, Ack: 789, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     19 0.508648    128.119.247.197       72.21.91.29           OCSP     505    Request
+
+Frame 19: 505 bytes on wire (4040 bits), 505 bytes captured (4040 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 440, Ack: 789, Len: 439
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     20 0.008441    72.21.91.29           128.119.247.197       OCSP     854    Response
+
+Frame 20: 854 bytes on wire (6832 bits), 854 bytes captured (6832 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 789, Ack: 879, Len: 788
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     21 0.000037    128.119.247.197       72.21.91.29           TCP      66     33076 > http [ACK] Seq=879 Ack=1577 Win=32384 Len=0 TSval=176004337 TSecr=2490009540
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 879, Ack: 1577, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     22 0.002114    128.119.247.197       72.21.91.29           OCSP     505    Request
+
+Frame 22: 505 bytes on wire (4040 bits), 505 bytes captured (4040 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 879, Ack: 1577, Len: 439
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     23 0.008198    72.21.91.29           128.119.247.197       OCSP     854    Response
+
+Frame 23: 854 bytes on wire (6832 bits), 854 bytes captured (6832 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 1577, Ack: 1318, Len: 788
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     24 0.039325    128.119.247.197       72.21.91.29           TCP      66     33076 > http [ACK] Seq=1318 Ack=2365 Win=34048 Len=0 TSval=176004350 TSecr=2490009542
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 1318, Ack: 2365, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     25 0.584297    128.119.247.197       216.58.219.206        TCP      74     38350 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=176004496 TSecr=0 WS=128
+
+Frame 25: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     26 0.007329    216.58.219.206        128.119.247.197       TCP      74     http > 38350 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1430 SACK_PERM=1 TSval=3821323126 TSecr=176004496 WS=128
+
+Frame 26: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     27 0.000042    128.119.247.197       216.58.219.206        TCP      66     38350 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176004497 TSecr=3821323126
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     28 0.000151    128.119.247.197       216.58.219.206        OCSP     503    Request
+
+Frame 28: 503 bytes on wire (4024 bits), 503 bytes captured (4024 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 1, Ack: 1, Len: 437
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     29 0.007282    216.58.219.206        128.119.247.197       TCP      66     http > 38350 [ACK] Seq=1 Ack=438 Win=43648 Len=0 TSval=3821323133 TSecr=176004497
+
+Frame 29: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1, Ack: 438, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     30 0.021592    216.58.219.206        128.119.247.197       OCSP     847    Response
+
+Frame 30: 847 bytes on wire (6776 bits), 847 bytes captured (6776 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1, Ack: 438, Len: 781
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     31 0.000031    128.119.247.197       216.58.219.206        TCP      66     38350 > http [ACK] Seq=438 Ack=782 Win=30848 Len=0 TSval=176004505 TSecr=3821323155
+
+Frame 31: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 438, Ack: 782, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     32 1.671340    128.119.247.197       216.58.219.206        OCSP     503    Request
+
+Frame 32: 503 bytes on wire (4024 bits), 503 bytes captured (4024 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 438, Ack: 782, Len: 437
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     33 0.028860    216.58.219.206        128.119.247.197       OCSP     847    Response
+
+Frame 33: 847 bytes on wire (6776 bits), 847 bytes captured (6776 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 782, Ack: 875, Len: 781
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     34 0.000026    128.119.247.197       216.58.219.206        TCP      66     38350 > http [ACK] Seq=875 Ack=1563 Win=32384 Len=0 TSval=176004930 TSecr=3821324855
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 875, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     35 2.729106    128.119.247.197       72.167.239.239        TCP      74     60031 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=176005612 TSecr=0 WS=128
+
+Frame 35: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60031 (60031), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     36 0.000038    128.119.247.197       72.167.239.239        TCP      74     60032 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=176005612 TSecr=0 WS=128
+
+Frame 36: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60032 (60032), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     37 0.025872    72.167.239.239        128.119.247.197       TCP      74     http > 60032 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=1947078931 TSecr=176005612 WS=128
+
+Frame 37: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60032 (60032), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     38 0.000044    128.119.247.197       72.167.239.239        TCP      66     60032 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176005619 TSecr=1947078931
+
+Frame 38: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60032 (60032), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     39 0.000118    128.119.247.197       72.167.239.239        OCSP     495    Request
+
+Frame 39: 495 bytes on wire (3960 bits), 495 bytes captured (3960 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60032 (60032), Dst Port: http (80), Seq: 1, Ack: 1, Len: 429
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     40 0.000278    72.167.239.239        128.119.247.197       TCP      74     http > 60031 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=1947078931 TSecr=176005612 WS=128
+
+Frame 40: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60031 (60031), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     41 0.000027    128.119.247.197       72.167.239.239        TCP      66     60031 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176005619 TSecr=1947078931
+
+Frame 41: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60031 (60031), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     42 0.000137    128.119.247.197       72.167.239.239        OCSP     495    Request
+
+Frame 42: 495 bytes on wire (3960 bits), 495 bytes captured (3960 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60031 (60031), Dst Port: http (80), Seq: 1, Ack: 1, Len: 429
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     43 0.000787    128.119.247.197       72.167.239.239        TCP      74     60033 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=176005619 TSecr=0 WS=128
+
+Frame 43: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60033 (60033), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     44 0.024632    72.167.239.239        128.119.247.197       TCP      66     http > 60032 [ACK] Seq=1 Ack=430 Win=15616 Len=0 TSval=1947078957 TSecr=176005619
+
+Frame 44: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60032 (60032), Seq: 1, Ack: 430, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     45 0.000858    72.167.239.239        128.119.247.197       OCSP     2247   Response
+
+Frame 45: 2247 bytes on wire (17976 bits), 2247 bytes captured (17976 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60032 (60032), Seq: 1, Ack: 430, Len: 2181
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     46 0.000029    128.119.247.197       72.167.239.239        TCP      66     60032 > http [ACK] Seq=430 Ack=2182 Win=33664 Len=0 TSval=176005625 TSecr=1947078957
+
+Frame 46: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60032 (60032), Dst Port: http (80), Seq: 430, Ack: 2182, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     47 0.000012    72.167.239.239        128.119.247.197       TCP      66     http > 60032 [FIN, ACK] Seq=2182 Ack=430 Win=15616 Len=0 TSval=1947078957 TSecr=176005619
+
+Frame 47: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60032 (60032), Seq: 2182, Ack: 430, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     48 0.000133    72.167.239.239        128.119.247.197       TCP      66     http > 60031 [ACK] Seq=1 Ack=430 Win=15616 Len=0 TSval=1947078957 TSecr=176005619
+
+Frame 48: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60031 (60031), Seq: 1, Ack: 430, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     49 0.000722    72.167.239.239        128.119.247.197       TCP      74     http > 60033 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=1947078958 TSecr=176005619 WS=128
+
+Frame 49: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60033 (60033), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     50 0.000032    128.119.247.197       72.167.239.239        TCP      66     60033 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176005625 TSecr=1947078958
+
+Frame 50: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60033 (60033), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     51 0.000120    72.167.239.239        128.119.247.197       TCP      1514   [TCP segment of a reassembled PDU]
+
+Frame 51: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60031 (60031), Seq: 1, Ack: 430, Len: 1448
+
+No.     Time        Source                Destination           Protocol Length Info 
+     52 0.000016    128.119.247.197       72.167.239.239        TCP      66     60031 > http [ACK] Seq=430 Ack=1449 Win=32128 Len=0 TSval=176005625 TSecr=1947078958
+
+Frame 52: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60031 (60031), Dst Port: http (80), Seq: 430, Ack: 1449, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     53 0.000057    72.167.239.239        128.119.247.197       OCSP     799    Response
+
+Frame 53: 799 bytes on wire (6392 bits), 799 bytes captured (6392 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60031 (60031), Seq: 1449, Ack: 430, Len: 733
+[2 Reassembled TCP Segments (2181 bytes): #51(1448), #53(733)]
+Hypertext Transfer Protocol
+Online Certificate Status Protocol
+
+No.     Time        Source                Destination           Protocol Length Info 
+     54 0.000018    128.119.247.197       72.167.239.239        TCP      66     60031 > http [ACK] Seq=430 Ack=2182 Win=35072 Len=0 TSval=176005626 TSecr=1947078958
+
+Frame 54: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60031 (60031), Dst Port: http (80), Seq: 430, Ack: 2182, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     55 0.000009    72.167.239.239        128.119.247.197       TCP      66     http > 60031 [FIN, ACK] Seq=2182 Ack=430 Win=15616 Len=0 TSval=1947078958 TSecr=176005619
+
+Frame 55: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60031 (60031), Seq: 2182, Ack: 430, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     56 0.001523    128.119.247.197       72.167.239.239        TCP      66     60032 > http [FIN, ACK] Seq=430 Ack=2183 Win=33664 Len=0 TSval=176005626 TSecr=1947078957
+
+Frame 56: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60032 (60032), Dst Port: http (80), Seq: 430, Ack: 2183, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     57 0.009438    128.119.247.197       72.167.239.239        TCP      66     60031 > http [FIN, ACK] Seq=430 Ack=2183 Win=35072 Len=0 TSval=176005628 TSecr=1947078958
+
+Frame 57: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60031 (60031), Dst Port: http (80), Seq: 430, Ack: 2183, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     58 0.016392    72.167.239.239        128.119.247.197       TCP      66     http > 60032 [ACK] Seq=2183 Ack=431 Win=15616 Len=0 TSval=1947078986 TSecr=176005626
+
+Frame 58: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60032 (60032), Seq: 2183, Ack: 431, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     59 0.010072    72.167.239.239        128.119.247.197       TCP      66     http > 60031 [ACK] Seq=2183 Ack=431 Win=15616 Len=0 TSval=1947078996 TSecr=176005628
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60031 (60031), Seq: 2183, Ack: 431, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     60 0.330550    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176005718 TSecr=1128740123
+
+Frame 60: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     61 0.074347    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128741131 TSecr=176003218
+
+Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     62 0.646626    72.167.239.239        128.119.247.197       TCP      74     [TCP Retransmission] http > 60033 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1460 SACK_PERM=1 TSval=1947080048 TSecr=176005625 WS=128
+
+Frame 62: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60033 (60033), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     63 0.000045    128.119.247.197       72.167.239.239        TCP      66     [TCP Dup ACK 50#1] 60033 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176005898 TSecr=1947078958
+
+Frame 63: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60033 (60033), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     64 3.766950    128.119.247.197       72.21.91.29           TCP      66     [TCP Keep-Alive] 33076 > http [ACK] Seq=1317 Ack=2365 Win=34048 Len=0 TSval=176006840 TSecr=2490009542
+
+Frame 64: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 1317, Ack: 2365, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     65 0.007705    72.21.91.29           128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 33076 [ACK] Seq=2365 Ack=1318 Win=17920 Len=0 TSval=2490012044 TSecr=176004350
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 2365, Ack: 1318, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     66 0.104758    72.167.239.239        128.119.247.197       TCP      60     http > 60032 [RST] Seq=2183 Win=0 Len=0
+
+Frame 66: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60032 (60032), Seq: 2183, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     67 0.000340    72.167.239.239        128.119.247.197       TCP      60     http > 60031 [RST] Seq=2183 Win=0 Len=0
+
+Frame 67: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60031 (60031), Seq: 2183, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     68 0.418535    128.119.247.197       72.167.239.239        TCP      66     60033 > http [FIN, ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=176006972 TSecr=1947078958
+
+Frame 68: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60033 (60033), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     69 0.026476    72.167.239.239        128.119.247.197       TCP      66     http > 60033 [FIN, ACK] Seq=1 Ack=2 Win=14592 Len=0 TSval=1947084372 TSecr=176006972
+
+Frame 69: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60033 (60033), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     70 0.000038    128.119.247.197       72.167.239.239        TCP      66     60033 > http [ACK] Seq=2 Ack=2 Win=29312 Len=0 TSval=176006979 TSecr=1947084372
+
+Frame 70: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.167.239.239 (72.167.239.239)
+Transmission Control Protocol, Src Port: 60033 (60033), Dst Port: http (80), Seq: 2, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     71 1.806195    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176007431 TSecr=3821324855
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     72 0.007365    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821334865 TSecr=176004930
+
+Frame 72: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     73 2.769454    72.167.239.239        128.119.247.197       TCP      60     http > 60033 [RST] Seq=2 Win=0 Len=0
+
+Frame 73: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.167.239.239 (72.167.239.239), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 60033 (60033), Seq: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     74 0.459144    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176008240 TSecr=1128741131
+
+Frame 74: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     75 0.074824    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128742139 TSecr=176003218
+
+Frame 75: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     76 0.189229    72.21.91.29           128.119.247.197       TCP      66     http > 33076 [FIN, ACK] Seq=2365 Ack=1318 Win=17920 Len=0 TSval=2490013508 TSecr=176004350
+
+Frame 76: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 2365, Ack: 1318, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     77 0.000122    128.119.247.197       72.21.91.29           TCP      66     33076 > http [FIN, ACK] Seq=1318 Ack=2366 Win=34048 Len=0 TSval=176008306 TSecr=2490013508
+
+Frame 77: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 72.21.91.29 (72.21.91.29)
+Transmission Control Protocol, Src Port: 33076 (33076), Dst Port: http (80), Seq: 1318, Ack: 2366, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     78 0.007691    72.21.91.29           128.119.247.197       TCP      66     http > 33076 [ACK] Seq=2366 Ack=1319 Win=17920 Len=0 TSval=2490013510 TSecr=176008306
+
+Frame 78: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 72.21.91.29 (72.21.91.29), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 33076 (33076), Seq: 2366, Ack: 1319, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     79 6.512184    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176009936 TSecr=3821334865
+
+Frame 79: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     80 0.007390    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821344886 TSecr=176004930
+
+Frame 80: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     81 3.288548    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176010760 TSecr=1128742139
+
+Frame 81: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     82 0.074455    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128743147 TSecr=176003218
+
+Frame 82: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     83 6.645591    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176012440 TSecr=3821344886
+
+Frame 83: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     84 0.007277    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821354901 TSecr=176004930
+
+Frame 84: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     85 3.352724    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176013280 TSecr=1128743147
+
+Frame 85: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     86 0.074144    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128744155 TSecr=176003218
+
+Frame 86: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     87 6.581874    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176014944 TSecr=3821354901
+
+Frame 87: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     88 0.007325    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821364917 TSecr=176004930
+
+Frame 88: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     89 3.416681    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176015800 TSecr=1128744155
+
+Frame 89: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     90 0.074478    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128745163 TSecr=176003218
+
+Frame 90: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     91 6.517462    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176017448 TSecr=3821364917
+
+Frame 91: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     92 0.007318    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821374933 TSecr=176004930
+
+Frame 92: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     93 3.480696    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176018320 TSecr=1128745163
+
+Frame 93: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     94 0.074088    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128746171 TSecr=176003218
+
+Frame 94: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     95 6.453958    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176019952 TSecr=3821374933
+
+Frame 95: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     96 0.007196    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821384949 TSecr=176004930
+
+Frame 96: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     97 3.544793    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176020840 TSecr=1128746171
+
+Frame 97: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     98 0.074184    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128747179 TSecr=176003218
+
+Frame 98: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+     99 6.389770    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176022456 TSecr=3821384949
+
+Frame 99: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    100 0.007305    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821394965 TSecr=176004930
+
+Frame 100: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    101 3.608746    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176023360 TSecr=1128747179
+
+Frame 101: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    102 0.074182    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128748187 TSecr=176003218
+
+Frame 102: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    103 6.325824    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176024960 TSecr=3821394965
+
+Frame 103: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    104 0.007396    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821404982 TSecr=176004930
+
+Frame 104: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    105 3.672582    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176025880 TSecr=1128748187
+
+Frame 105: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    106 0.074496    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128749195 TSecr=176003218
+
+Frame 106: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    107 6.261531    128.119.247.197       216.58.219.206        TCP      66     [TCP Keep-Alive] 38350 > http [ACK] Seq=874 Ack=1563 Win=32384 Len=0 TSval=176027464 TSecr=3821404982
+
+Frame 107: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 216.58.219.206 (216.58.219.206)
+Transmission Control Protocol, Src Port: 38350 (38350), Dst Port: http (80), Seq: 874, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    108 0.007353    216.58.219.206        128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 38350 [ACK] Seq=1563 Ack=875 Win=44800 Len=0 TSval=3821414997 TSecr=176004930
+
+Frame 108: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 216.58.219.206 (216.58.219.206), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 38350 (38350), Seq: 1563, Ack: 875, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    109 3.736619    128.119.247.197       91.189.90.41          TCP      66     [TCP Keep-Alive] 43322 > http [ACK] Seq=319 Ack=2445 Win=36224 Len=0 TSval=176028400 TSecr=1128749195
+
+Frame 109: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: 98:90:96:a7:10:36 (98:90:96:a7:10:36), Dst: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81)
+Internet Protocol Version 4, Src: 128.119.247.197 (128.119.247.197), Dst: 91.189.90.41 (91.189.90.41)
+Transmission Control Protocol, Src Port: 43322 (43322), Dst Port: http (80), Seq: 319, Ack: 2445, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info 
+    110 0.074261    91.189.90.41          128.119.247.197       TCP      66     [TCP Keep-Alive ACK] http > 43322 [ACK] Seq=2445 Ack=320 Win=6912 Len=0 TSval=1128750203 TSecr=176003218
+
+Frame 110: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: JuniperN_dd:de:81 (5c:5e:ab:dd:de:81), Dst: 98:90:96:a7:10:36 (98:90:96:a7:10:36)
+Internet Protocol Version 4, Src: 91.189.90.41 (91.189.90.41), Dst: 128.119.247.197 (128.119.247.197)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 43322 (43322), Seq: 2445, Ack: 320, Len: 0
